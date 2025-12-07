@@ -6,7 +6,7 @@ import { fileURLToPath } from "url";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const app = express();
 
-// Serve Ultraviolet static build output (adjust if your fork uses a different folder)
+// Serve Ultraviolet build output (adjust if your fork outputs elsewhere)
 app.use(express.static(path.join(__dirname, "dist")));
 
 // Serve Ultraviolet core files
