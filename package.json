@@ -18,6 +18,7 @@
 	"scripts": {
 		"build": "node build.js",
 		"dev": "node build.js --dev",
+		"start": "node server.js",
 		"prepack": "npm run build",
 		"format": "prettier --config .prettierrc.js --write .",
 		"lint": "eslint ./src/",
